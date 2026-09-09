@@ -90,7 +90,7 @@ export default function Home({ navigate }: HomeProps) {
             SLOW YOU<br />
             DOWN.
           </h1>
-          <p className="text-[#7C5C3A] text-base max-w-xs leading-relaxed mb-10 font-sans font-light">
+          <p className="text-[#7C5C3A] text-lg max-w-sm leading-relaxed mb-10 font-sans font-light">
             Specialty coffee, simple food, and good mornings in the heart of the city.
           </p>
           <div className="flex gap-4 flex-wrap">
@@ -145,10 +145,10 @@ export default function Home({ navigate }: HomeProps) {
             <h2 className="font-display text-[clamp(2rem,4vw,4rem)] leading-[1.05] font-light text-[#2B1C0D] mb-8">
               Good coffee doesn't need to be complicated.
             </h2>
-            <p className="text-[#7C5C3A] text-base leading-relaxed mb-5 font-sans font-light max-w-lg">
+            <p className="text-[#7C5C3A] text-lg leading-relaxed mb-5 font-sans font-light max-w-lg">
               We source beans from small, independent farmers who care about what they grow. Each cup is dialled in with attention to temperature, ratio, and time.
             </p>
-            <p className="text-[#7C5C3A] text-base leading-relaxed mb-10 font-sans font-light max-w-lg">
+            <p className="text-[#7C5C3A] text-lg leading-relaxed mb-10 font-sans font-light max-w-lg">
               The food is simple on purpose. The atmosphere is relaxed. You're welcome to stay as long as you like.
             </p>
             <button
@@ -194,7 +194,7 @@ export default function Home({ navigate }: HomeProps) {
                   <h3 className="font-display text-2xl lg:text-3xl font-light text-[#2B1C0D] group-hover:text-[#C06B45] transition-colors">
                     {item.name}
                   </h3>
-                  <p className="text-[#A8906F] text-sm font-sans font-light mt-1">{item.desc}</p>
+                  <p className="text-[#A8906F] text-base font-sans font-light mt-1">{item.desc}</p>
                 </div>
                 <span className="text-[#2B1C0D] font-sans text-sm font-medium">{item.price}</span>
                 <div
@@ -249,11 +249,11 @@ export default function Home({ navigate }: HomeProps) {
                 { label: "Slow Conversations", desc: "Some tables are made for long goodbyes." },
                 { label: "Evening Catch-Ups", desc: "The kitchen stays open till 10." },
               ].map((m, i) => (
-                <div key={i} className="border border-[#E5D9C8] p-6 hover:border-[#C06B45] transition-colors group">
+                <div key={i} className="border border-[#E5D9C8] p-6">
                   <div className="text-[#C06B45] text-xs tracking-widest font-sans uppercase mb-3 font-medium">
                     {String(i + 1).padStart(2, "0")}
                   </div>
-                  <h3 className="font-display text-xl font-light text-[#2B1C0D] mb-2 group-hover:text-[#C06B45] transition-colors">
+                  <h3 className="font-display text-xl font-light text-[#2B1C0D] mb-2">
                     {m.label}
                   </h3>
                   <p className="text-[#A8906F] text-xs font-sans font-light leading-relaxed">{m.desc}</p>
@@ -291,7 +291,7 @@ export default function Home({ navigate }: HomeProps) {
                   {step.num}
                 </div>
                 <h3 className="font-display text-3xl font-light text-[#F5EFE4] mb-4">{step.title}</h3>
-                <p className="text-[#A8906F] text-sm font-sans font-light leading-relaxed max-w-xs">{step.body}</p>
+                <p className="text-[#A8906F] text-base font-sans font-light leading-relaxed max-w-xs">{step.body}</p>
               </div>
             ))}
           </div>
@@ -326,12 +326,12 @@ export default function Home({ navigate }: HomeProps) {
               <div>
                 <p className="text-[#E5D9C8] text-xs tracking-widest uppercase font-sans mb-2">Location</p>
                 <p className="text-[#F5EFE4] font-sans text-base">Mumbai, India</p>
-                <p className="text-[#A8906F] font-sans text-sm mt-1">8AM–10PM, Monday–Sunday</p>
+                <p className="text-[#A8906F] font-sans text-base mt-1">8AM–10PM, Monday–Sunday</p>
               </div>
               <div>
                 <p className="text-[#E5D9C8] text-xs tracking-widest uppercase font-sans mb-2">Amenities</p>
-                <p className="text-[#F5EFE4] font-sans text-sm">Wi-Fi Available</p>
-                <p className="text-[#F5EFE4] font-sans text-sm">Indoor Seating</p>
+                <p className="text-[#F5EFE4] font-sans text-base">Wi-Fi Available</p>
+                <p className="text-[#F5EFE4] font-sans text-base">Indoor Seating</p>
               </div>
             </div>
           </div>
@@ -412,10 +412,10 @@ export default function Home({ navigate }: HomeProps) {
             </h2>
             <div className="space-y-2 mb-10">
               <p className="font-display text-xl text-[#2B1C0D]">Kora Coffee Co.</p>
-              <p className="text-[#7C5C3A] font-sans text-sm">Mumbai, India</p>
-              <p className="text-[#7C5C3A] font-sans text-sm">8AM–10PM · Monday–Sunday</p>
-              <p className="text-[#7C5C3A] font-sans text-sm mt-4">+91 90000 00000</p>
-              <p className="text-[#7C5C3A] font-sans text-sm">hello@koracoffee.co</p>
+              <p className="text-[#7C5C3A] font-sans text-base">Mumbai, India</p>
+              <p className="text-[#7C5C3A] font-sans text-base">8AM–10PM · Monday–Sunday</p>
+              <p className="text-[#7C5C3A] font-sans text-base mt-4">+91 90000 00000</p>
+              <p className="text-[#7C5C3A] font-sans text-base">hello@koracoffee.co</p>
             </div>
             <div className="flex gap-4">
               <button

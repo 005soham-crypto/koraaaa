@@ -112,7 +112,7 @@ export default function Menu() {
           </div>
 
           <div className="mt-16 pt-8 border-t border-[#E5D9C8]">
-            <p className="text-[#A8906F] font-sans text-xs leading-relaxed max-w-lg">
+            <p className="text-[#A8906F] font-sans text-sm leading-relaxed max-w-lg">
               Our menu changes with the seasons. Some items may not be available. Please ask your server about allergens and dietary requirements.
             </p>
           </div>

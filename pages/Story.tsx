@@ -61,10 +61,10 @@ export default function Story() {
             <h2 className="font-display text-4xl lg:text-5xl font-light text-[#2B1C0D] leading-tight mb-8">
               Careful about the coffee. Relaxed about everything else.
             </h2>
-            <p className="text-[#7C5C3A] font-sans text-sm font-light leading-relaxed mb-4">
+            <p className="text-[#7C5C3A] font-sans text-base font-light leading-relaxed mb-4">
               We dial in our espresso daily. We change the brew ratio when the seasons shift. We train our team on extraction, not just milk pouring.
             </p>
-            <p className="text-[#7C5C3A] font-sans text-sm font-light leading-relaxed">
+            <p className="text-[#7C5C3A] font-sans text-base font-light leading-relaxed">
               But once the cup reaches you, we step back. How you drink it, when you leave, how loud you talk — none of that is our business.
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function Story() {
               >
                 <div className="font-display text-2xl text-[#C06B45] font-light">{item.year}</div>
                 <h3 className="font-display text-2xl lg:text-3xl font-light text-[#2B1C0D]">{item.event}</h3>
-                <p className="text-[#A8906F] font-sans text-sm font-light leading-relaxed">{item.desc}</p>
+                <p className="text-[#A8906F] font-sans text-base font-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
             <div className="border-t border-[#E5D9C8]" />
@@ -99,7 +99,7 @@ export default function Story() {
             <h2 className="font-display text-4xl lg:text-5xl font-light text-[#F5EFE4] leading-tight mb-8">
               The team is small.<br />The care is not.
             </h2>
-            <p className="text-[#A8906F] font-sans text-sm font-light leading-relaxed max-w-md">
+            <p className="text-[#A8906F] font-sans text-base font-light leading-relaxed max-w-md">
               We're a team of eight. A few baristas who've worked in specialty coffee for years. A cook who keeps the food honest. And front-of-house who remember how you take yours.
             </p>
           </div>

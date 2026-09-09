@@ -56,17 +56,17 @@ export default function Contact() {
             <div>
               <p className="text-[#A8906F] text-xs tracking-widest uppercase font-sans mb-3">Address</p>
               <p className="font-display text-2xl text-[#2B1C0D] font-light mb-1">Kora Coffee Co.</p>
-              <p className="text-[#7C5C3A] font-sans text-sm">Mumbai, India</p>
+              <p className="text-[#7C5C3A] font-sans text-base">Mumbai, India</p>
             </div>
             <div>
               <p className="text-[#A8906F] text-xs tracking-widest uppercase font-sans mb-3">Hours</p>
-              <p className="text-[#7C5C3A] font-sans text-sm">8AM–10PM</p>
-              <p className="text-[#7C5C3A] font-sans text-sm">Monday–Sunday</p>
+              <p className="text-[#7C5C3A] font-sans text-base">8AM–10PM</p>
+              <p className="text-[#7C5C3A] font-sans text-base">Monday–Sunday</p>
             </div>
             <div>
               <p className="text-[#A8906F] text-xs tracking-widest uppercase font-sans mb-3">Contact</p>
-              <p className="text-[#7C5C3A] font-sans text-sm">+91 90000 00000</p>
-              <p className="text-[#7C5C3A] font-sans text-sm">hello@koracoffee.co</p>
+              <p className="text-[#7C5C3A] font-sans text-base">+91 90000 00000</p>
+              <p className="text-[#7C5C3A] font-sans text-base">hello@koracoffee.co</p>
             </div>
           </div>
 
@@ -96,7 +96,7 @@ export default function Contact() {
             <div className="flex flex-col items-start justify-center h-full py-16">
               <div className="w-8 h-px bg-[#C06B45] mb-6" />
               <h2 className="font-display text-4xl font-light text-[#2B1C0D] mb-4">We'll be in touch.</h2>
-              <p className="text-[#7C5C3A] font-sans text-sm leading-relaxed max-w-xs">
+              <p className="text-[#7C5C3A] font-sans text-lg leading-relaxed max-w-xs">
                 Thanks for writing. We read everything and typically respond within a day.
               </p>
             </div>
